@@ -1,0 +1,53 @@
+.group-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-group-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.new-group-inputs input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.new-group-inputs .error {
+  color: red;
+  font-size: 12px;
+}
+
+.confirm-add-group-btn {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-group-btn, .show-status-btn {
+  padding: 10px 20px;
+  background-color: #00ff6a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-group-btn:hover, .show-status-btn:hover, .confirm-add-group-btn:hover {
+  background-color: #0056b3;
+}

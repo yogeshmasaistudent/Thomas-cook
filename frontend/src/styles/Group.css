@@ -1,0 +1,32 @@
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.group input {
+  width: 60px;
+  padding: 5px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #e74c3c;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.delete-btn:hover {
+  color: #c0392b;
+}
